@@ -4,3 +4,4 @@
             $http.get(url).then( function(response) {
                $scope.students = response.data;
             });
+  }
